@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "799611497617",
+    "project_id": "rentallapp-83062",
+    "storage_bucket": "rentallapp-83062.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:799611497617:android:654125a8063e7bd86ba330",
+        "android_client_info": {
+          "package_name": "com.example.firestorervtemplate"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBs2JZHxjM3p8aKm-XSMdHuYv1Uo8oCUlw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:799611497617:android:c83829f63432e49b6ba330",
+        "android_client_info": {
+          "package_name": "com.example.myproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBs2JZHxjM3p8aKm-XSMdHuYv1Uo8oCUlw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

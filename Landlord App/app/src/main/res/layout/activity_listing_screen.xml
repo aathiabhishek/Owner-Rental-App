@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_2"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="192dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="48dp"
+        android:text="Listing Screen"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/addressEditText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Property Address"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/textView2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/imageURLEditText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="House Image URL"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/addressEditText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/priceEditText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Monthly Rental Price"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:inputType="numberDecimal"
+        app:layout_constraintTop_toBottomOf="@id/imageURLEditText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/bedroomsEditText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Number of Bedrooms"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:inputType="number"
+        app:layout_constraintTop_toBottomOf="@id/priceEditText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/rentalEditText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Rental Type"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/bedroomsEditText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/useCurrentLocationButton"
+        android:layout_width="190dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#FFEB3B"
+        android:text="Use Current Location"
+        android:textColor="#020202"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/rentalEditText" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="120dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#FFEB3B"
+        android:text="Submit"
+        android:textColor="#090909"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/useCurrentLocationButton" />
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="89dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#FFEB3B"
+        android:text="Next"
+        android:textColor="#0B0B0B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/submitButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
